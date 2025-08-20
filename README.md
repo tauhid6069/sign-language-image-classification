@@ -21,7 +21,30 @@ The notebook demonstrates the full workflow: preparing the dataset, applying aug
 ## Settings
 - **Batch size**: 8  
 - **Epochs**: 20  
+---
 
+## Dataset
+
+The dataset used in this project is too large to include in this repository.  
+You can download it from [[Google Drive](https://drive.google.com/drive/u/0/folders/1orxBzKdOuXC-V1LW38QFy3iyuzoesleh)] or [[Kaggle Dataset]](https://www.kaggle.com/datasets/datamunge/sign-language-mnist).
+
+Once downloaded, extract it and place it under the `data/` directory in the following format:
+
+ ```bash
+  data/
+  train/
+    A/
+    B/
+    ...
+  val/
+    A/
+    B/
+    ...
+  test/
+    A/
+    B/
+    ...
+```
 ---
 
 ## Tools & Libraries Used
@@ -56,21 +79,5 @@ The notebook demonstrates the full workflow: preparing the dataset, applying aug
 ```bash
 pip install -r requirements.txt
 ```
-3. Organise your dataset into the following structure:
- ```bash
-  data/
-  train/
-    A/
-    B/
-    ...
-  val/
-    A/
-    B/
-    ...
-  test/
-    A/
-    B/
-    ...
-```
-4. Open the notebook: sign-language-image-classification.ipnyb
-5. Run all cells to train and evaluate the model.
+3. Open the notebook: sign-language-image-classification.ipnyb
+4. Run all cells to train and evaluate the model.
