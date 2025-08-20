@@ -72,8 +72,8 @@ Once downloaded, extract it and place it under the `data/` directory in the foll
 ## How to Run
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/<your-repo>.git
-   cd <your-repo>
+   git clone https://github.com/tauhid6069/sign-language-image-classification.git
+   cd sign-language-image-classification
    ```
 2. Install the dependencies:
 ```bash
